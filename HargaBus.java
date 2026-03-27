@@ -28,17 +28,17 @@ public class HargaBus {
 
         System.out.print("\nMasukkan jumlah tiket: ");
         jumlah = input.nextInt();
-        if (tujuan == 1) { // Jakarta
+        if (tujuan == 1) { 
             if (kelas == 1) harga = 70000;
             else if (kelas == 2) harga = 40000;
             else if (kelas == 3) harga = 10000;
         } 
-        else if (tujuan == 2) { // Yogya
+        else if (tujuan == 2) { 
             if (kelas == 1) harga = 80000;
             else if (kelas == 2) harga = 50000;
             else if (kelas == 3) harga = 20000;
         } 
-        else if (tujuan == 3) { // Surabaya
+        else if (tujuan == 3) { 
             if (kelas == 1) harga = 90000;
             else if (kelas == 2) harga = 60000;
             else if (kelas == 3) harga = 30000;
